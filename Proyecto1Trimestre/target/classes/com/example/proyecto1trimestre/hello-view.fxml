@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto1trimestre.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label layoutX="51.0" layoutY="30.0" text="Northwind" />
+   <Label text="Nombre de Usuario:" />
+   <TextField fx:id="userName" />
+
+    <Label text="contraseña:" />
+   <PasswordField fx:id="password" />
+    <Button onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="116.0" text="Entrar" />
+   <Label fx:id="mensaje" layoutX="75.0" layoutY="113.0" />
+</VBox>

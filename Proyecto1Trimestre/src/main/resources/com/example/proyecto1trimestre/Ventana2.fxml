@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto1trimestre.Ventana2">
+      <ComboBox fx:id="tableComboBox" promptText="Selecciona una tabla" />
+   <VBox alignment="BOTTOM_RIGHT" prefHeight="335.0" prefWidth="600.0">
+
+         <Label fx:id="label" />
+      
+         <Button onAction="#nextButtonClicked" prefHeight="26.0" prefWidth="116.0" text="Next"  />
+
+   </VBox>
+
+
+</VBox>
